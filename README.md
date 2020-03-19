@@ -22,43 +22,43 @@ Requirements of the app listed:
 <b>To run the app:</b>
 <br />
 <br />
-<p>Clone the repo</p>
+<p>1. Clone the repo</p>
 <br />
 <pre><code>git clone https://github.com/tebbythomas/Django-Employee-Kudos-Management.git
 </code></pre>
 <br />
 <br />
-<p>Switch to project dir</p>
+<p>2. Switch to project dir</p>
 <br />
 <pre><code>cd Django-Employee-Kudos-Management/
 </code></pre>
 <br />
 <br />
-<p>Create a python virtual environment</p>
+<p>3. Create a python virtual environment</p>
 <br />
 <pre><code>python3 -m venv proj_env
 </code></pre>
 <br />
 <br />
-<p>Activate the environment</p>
+<p>4. Activate the environment</p>
 <br />
 <pre><code>source proj_env/bin/activate
 </code></pre>
 <br />
 <br />
-<p>Install requirements</p>
+<p>5. Install requirements</p>
 <br />
 <pre><code>pip install -r requirements.txt
 </code></pre>
 <br />
 <br />
-<p>Switch to django project dir</p>
+<p>6. Switch to django project dir</p>
 <br />
 <pre><code>cd kudos_manager/
 </code></pre>
 <br />
 <br />
-<p>Make Python migrations</p>
+<p>7. Make Python migrations</p>
 <br />
 <pre><code>python manage.py makemigrations
 </code></pre>
@@ -67,34 +67,34 @@ Requirements of the app listed:
 </code></pre>
 <br />
 <br />
-<p>Create Django user to access the admin</p>
+<p>8. Create Django user to access the admin</p>
 <br />
 <pre><code>python manage.py createsuperuser
 </code></pre>
 <br />
 <br />
-<p>Run the project</p>
+<p>9. Run the project</p>
 <br />
 <pre><code>python manage.py runserver
 </code></pre>
 <br />
 <br />
-<p>Open http://localhost:8000 in your browser</p>
+<p>10. Open http://localhost:8000 in your browser</p>
 <br />
 <br />
 <p>To upload sample employee data, visit http://localhost:8000/upload/employees and upload following csv file:
 <br />
-<a href="#"></a>
+<a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Sample_Data/Sample_Data_1/upload_employees_1.csv">Link</a>
 <br />
 <br />
 <p>To upload sample kudos data, visit http://localhost:8000/upload/kudos and upload following csv file:
 <br />
-<a href="#"></a>
+<a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Sample_Data/Sample_Data_1/upload_kudos_1.csv">Link</a>
 <br />
 <br />
 <p>Other sample csv files are here:</p>
 <br />
-<a href="#"></a>
+<a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/tree/master/Sample_Data">Link</a>
 <br />
 <br />
 <b>Screenshots:</b>
