@@ -24,7 +24,8 @@ Some of the features included:
 <br />
 <b>Kudos</b> (fromColleague, toColleague, message, created_at)
 <br />
-<b>Requirements of the app listed:</b>
+<br />
+<b>Requirements of the app:</b>
 <br />
 <a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/requirements.txt">Link</a>
 <br />
