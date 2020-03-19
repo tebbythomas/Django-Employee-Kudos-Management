@@ -147,11 +147,11 @@ Some of the features included:
 <img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Upload_Kudos.png" hspace="20">
 <br />
 <br />
-6.a. <b>Reset Kudos Count - Manually change date</b>:
+6.a. <b>To test Reset Kudos Count - First, login to the Admin Page->Profile table-> Choose user and change kudosLastUpdated Date to a previous week's date and save</b>:
 <br />
 <img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Manually_Changing_Date.png" hspace="20">
 <br />
 <br />
-6.b. <b>Reset Kudos Count and alert screenshot</b>:
+6.b. <b>To test Reset Kudos Count - Next, login and visit the homepage / dashboard of the same user, you will get an alert mentioning that the kudos count was reset</b>:
 <img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Resetting_Kudos.png" hspace="20">
 <br />
