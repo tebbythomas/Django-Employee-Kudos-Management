@@ -15,7 +15,8 @@ Some of the features included:
 <li><b>Using both frontend and DB constraints and checks</b></li>
 <br />
 <br />
-<b>Technical Details</b>
+<b>Technical Details:</b>
+<br />
 <br />
 <b>Frontend:</b> HTML, JS, CSS (Bootstrap theme: https://bootswatch.com/cosmo/)
 <br />
