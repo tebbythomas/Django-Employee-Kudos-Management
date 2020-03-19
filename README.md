@@ -4,17 +4,27 @@ An application that enables employees to give kudos to their colleagues in their
 <br />
 <br />
 Some of the features included:
-<li><b>Registering and Sign ins of employees</b></li>
-<li><b>Give kudos to only their colleagues</b></li>
+<li><b>Registering and Login of employees</b></li>
+<li><b>Giving kudos to only their colleagues</b></li>
 <li><b>Uploading employee details and kudos details in bulk</b></li>
 <li><b>Allocating a certain number of kudos for each employee each week and resetting the kudos count at the end of the week</b> </li>
 <li><b>Using partials, base html file for template code modularity</b></li>
-<li><b>Using Django alert messages for success or error messages</b></li>
-<li><b>Admin section</b> - allowing an admin/superuser to perform any CRUD operation on employee, employee profile, company, kudos information</li>
+<li><b>Using Django alert messages for success and error messages</b></li>
+<li><b>Admin section</b> - allowing an admin/superuser to perform CRUD operations on employee, employee profile, company, kudos information</li>
 <li><b>Using bootstrap for the front end</b></li>
 <br />
 <br />
-Requirements of the app listed:
+<b>Models used:</b>
+<br />
+<b>User</b> (first_name, last_name, username, email, password)
+<br />
+<b>Profile</b> (user, company, kudosCount, kudosLastUpdated)
+<br />
+<b>Company</b> (name)
+<br />
+<b>Kudos</b> (fromColleague, toColleague, message, created_at)
+<br />
+<b>Requirements of the app listed:</b>
 <br />
 <a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/requirements.txt">Link</a>
 <br />
@@ -98,6 +108,7 @@ Requirements of the app listed:
 <br />
 <br />
 <b>Screenshots:</b>
+<br />
 <br />
 1. <b>Register Employee Page</b>:
 <br />
