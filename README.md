@@ -8,7 +8,7 @@ Some of the features included:
 <li><b>Give kudos to only their colleagues</b></li>
 <li><b>Uploading employee details and kudos details in bulk</b></li>
 <li><b>Allocating a certain number of kudos for each employee each week and resetting the kudos count at the end of the week</b> </li>
-<li><b>Using partials, base html file for modularity of the code</b></li>
+<li><b>Using partials, base html file for template code modularity</b></li>
 <li><b>Using Django alert messages for success or error messages</b></li>
 <li><b>Admin section</b> - allowing an admin/superuser to perform any CRUD operation on employee, employee profile, company, kudos information</li>
 <li><b>Using bootstrap for the front end</b></li>
@@ -19,7 +19,7 @@ Requirements of the app listed:
 <a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/requirements.txt">Link</a>
 <br />
 <br />
-<b>To run the app:<b>
+<b>To run the app:</b>
 <br />
 <br />
 <p>Clone the repo</p>
