@@ -81,7 +81,7 @@ Some of the features included:
 </code></pre>
 <br />
 <br />
-<p>7. Make Python migrations</p>
+<p>7. Make DB migrations</p>
 <br />
 <pre><code>python manage.py makemigrations
 </code></pre>
