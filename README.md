@@ -101,26 +101,34 @@ Requirements of the app listed:
 <br />
 1. <b>Register Employee Page</b>:
 <br />
-<img src="https://github.com/tebbythomas/Django_Blog_Project/blob/master/Screenshots/blog-register_user.png" hspace="20">
+<img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Register_Screen.png" hspace="20">
 <br />
 <br />
 2. <b>Login Employee Page</b>:
 <br />
-<img src="https://github.com/tebbythomas/Django_Blog_Project/blob/master/Screenshots/blog-login.png" hspace="20">
+<img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Login_Screen.png" hspace="20">
 <br />
 <br />
 3. <b>Home Page / Dashboard</b>:
 <br />
-<img src="https://github.com/tebbythomas/Django_Blog_Project/blob/master/Screenshots/blog-home_page.png" hspace="20">
+<img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Dashboard.png" hspace="20">
 <br />
 <br />
 4. <b>Upload Employee Details</b>:
 <br />
-<img src="https://github.com/tebbythomas/Django_Blog_Project/blob/master/Screenshots/blog-add_post.png" hspace="20">
+<img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Upload_Employees.png" hspace="20">
 <br />
 <br />
 5. <b>Upload Kudos Details</b>:
 <br />
-<img src="https://github.com/tebbythomas/Django_Blog_Project/blob/master/Screenshots/blog-post_page.png" hspace="20">
+<img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Upload_Kudos.png" hspace="20">
 <br />
+<br />
+6.a. <b>Reset Kudos Count - Manually change date</b>:
+<br />
+<img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Manually_Changing_Date.png" hspace="20">
+<br />
+<br />
+6.b. <b>Reset Kudos Count and alert screenshot</b>:
+<img src="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Screenshots/Resetting_Kudos.png" hspace="20">
 <br />
