@@ -102,15 +102,15 @@ Some of the features included:
 </code></pre>
 <br />
 <br />
-<p>10. Open http://localhost:8000 in your browser</p>
+<p>10. Open <a href="http://localhost:8000">http://localhost:8000</a> in your browser</p>
 <br />
 <br />
-<p>To upload sample employee data, visit http://localhost:8000/upload/employees and upload following csv file:
+<p>To upload sample employee data, visit <a href="http://localhost:8000/upload/employees">http://localhost:8000/upload/employees</a> and upload following csv file:
 <br />
 <a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Sample_Data/Sample_Data_1/upload_employees_1.csv">Link</a>
 <br />
 <br />
-<p>To upload sample kudos data, visit http://localhost:8000/upload/kudos and upload following csv file:
+<p>To upload sample kudos data, visit <a href="http://localhost:8000/upload/kudos">http://localhost:8000/upload/kudos</a> and upload following csv file:
 <br />
 <a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/Sample_Data/Sample_Data_1/upload_kudos_1.csv">Link</a>
 <br />
