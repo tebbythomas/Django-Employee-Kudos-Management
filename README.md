@@ -27,6 +27,7 @@ Some of the features included:
 <br /> 
 <b>Models used:</b>
 <br />
+<br />
 <b>User</b> (first_name, last_name, username, email, password)
 <br />
 <b>Profile</b> (user, company, kudosCount, kudosLastUpdated)
