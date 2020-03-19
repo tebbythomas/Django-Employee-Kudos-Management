@@ -7,13 +7,23 @@ Some of the features included:
 <li><b>Registering and Login of employees</b></li>
 <li><b>Giving kudos to only their colleagues</b></li>
 <li><b>Uploading employee details and kudos details in bulk</b></li>
-<li><b>Allocating a certain number of kudos for each employee each week and resetting the kudos count at the end of the week</b> </li>
+<li><b>Allocating a certain number of kudos for each employee each week</b></li>
+<li><b> Resetting the kudos count at the end of the week</b></li>
 <li><b>Using partials, base html file for template code modularity</b></li>
 <li><b>Using Django alert messages for success and error messages</b></li>
 <li><b>Admin section</b> - allowing an admin/superuser to perform CRUD operations on employee, employee profile, company, kudos information</li>
-<li><b>Using bootstrap for the front end</b></li>
+<li><b>Using both frontend and DB constraints and checks</b></li>
 <br />
 <br />
+<b>Technical Details</b>
+<br />
+<b>Frontend:</b> HTML, JS, CSS (Bootstrap theme: https://bootswatch.com/cosmo/)
+<br />
+<b>Framework:</b> Python, Django authentication, messages, etc
+<br />
+<b>Database:</b> SQLite
+<br />
+<br /> 
 <b>Models used:</b>
 <br />
 <b>User</b> (first_name, last_name, username, email, password)
