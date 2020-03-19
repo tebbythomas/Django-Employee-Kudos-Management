@@ -116,7 +116,6 @@ Some of the features included:
 <br />
 <br />
 <p>Other sample csv files are here:</p>
-<br />
 <a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/tree/master/Sample_Data">Link</a>
 <br />
 <br />
