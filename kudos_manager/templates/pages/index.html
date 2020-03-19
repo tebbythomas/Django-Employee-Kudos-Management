@@ -1,0 +1,98 @@
+{% extends 'base.html' %} {% block title %} Dashboard {% endblock %} 
+{% block content %}
+<!-- Display page only if user is authenticated --> 
+{% if request.user.is_authenticated %}
+<div>
+  <div class="card card-body mt-4 mb-4">
+    <h4><b>Company:</b> {{ profile.company }}</h4>
+    <h4><b>Kudos Left:</b> {{ profile.kudosCount }}</h4>
+  </div>
+  <div class="card card-body mt-4 mb-4">
+    {% if noMoreKudos %}
+    <h2>No kudos left!</h2>
+    {% else %}
+    {% if colleagues %}
+    <h2>Send Kudos</h2>
+    <br />
+    <form action="{% url 'index' %}" method="POST">
+      {% csrf_token %}
+      <div class="form-group">
+        <label><b>Colleague</b></label>
+        <select class="form-control" name="to_colleague" id="colleagues">
+          <option value="none" selected>---------------</option>
+          {% for colleague in colleagues %}
+          {% with colleague.user.first_name|add:" "|add:colleague.user.last_name as full_name %}
+          <option value="{{ colleague.user.username }}">
+            {{ full_name }}</option
+          >
+          {% endwith %}
+          {% endfor %}
+        </select>
+      </div>
+      <div class="form-group">
+        <label><b>Message</b></label>
+        <textarea class="form-control" type="text" name="message"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">
+          Submit
+        </button>
+      </div>
+    </form>
+    {% else %}
+      <h4><b>Sorry!</b> you can't send kudos yet because you are the only registered employee from your company as of now</h4>
+    {% endif %} {% endif %}
+    <br />
+    {% if kudos_received %}
+    <h2>Kudos Received</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Colleague</th>
+          <th>Message</th>
+          <th>Date</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for kudos in kudos_received %}
+        <tr key="">
+          <td>{{ kudos.id }}</td>
+          <td>{{ kudos.fromColleague.first_name }}</td>
+          <td>{{ kudos.message }}</td>
+          <td>{{ kudos.created_at }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+    <br />
+    {% if kudos_given %}
+    <h2>Kudos Given</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Colleague</th>
+          <th>Message</th>
+          <th>Date</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for kudos in kudos_given %}
+        <tr key="">
+          <td>{{ kudos.id }}</td>
+          <td>{{ kudos.toColleague.first_name }}</td>
+          <td>{{ kudos.message }}</td>
+          <td>{{ kudos.created_at }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+  </div>
+</div>
+{% endif %} 
+{% endblock %}

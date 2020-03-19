@@ -1,0 +1,55 @@
+<!-- Navbar template -->
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <div class="container">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="{% url 'index' %}">
+        Kudos Manager
+      </a>
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <!-- Display profile name and logout only if user is logged in  -->
+        {% if request.user.is_authenticated %}
+        <li class="nav-item">
+          <a href="#" class="nav-link" style="background: lightgreen; ">
+            Welcome {{ request.user.first_name }}!
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="javascript:{document.getElementById('logout').submit()}"
+            class="nav-link"
+          >
+            Logout
+          </a>
+          <form id="logout" action="{% url 'logout' %}" method="POST">
+            {% csrf_token %}
+            <input type="hidden" />
+          </form>
+        </li>
+        {% else %}
+        <!-- Display register and login buttons if user is not logged in -->
+        <li class="nav-item">
+          <a href="{% url 'register' %}" class="nav-link">
+            Register
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'login' %}" class="nav-link">
+            Login
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>

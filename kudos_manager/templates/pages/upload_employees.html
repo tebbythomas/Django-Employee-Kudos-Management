@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% block title %} Upload Employees {% endblock %} 
+{% block content %}
+<!-- Display page only if user is authenticated -->
+<div>
+  <div class="card card-body mt-4 mb-4">
+    <h4>Upload Employee Details as a CSV in this format: <br /><br />Headers to be included as the first line:<br /><br />First Name, Last Name, Company, Email, Password</h4>
+    <br />
+    <form action="{% url 'upload_employees' %}" method="POST"  enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="form-group">
+        <label><b>Choose CSV File</b></label>
+        <input
+          type="file"
+          id="upload_employees_file"
+          name="upload_employees_file"
+        />
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">
+          Upload
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
