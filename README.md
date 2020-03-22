@@ -53,7 +53,7 @@ Some of the features included:
 <br />
 <p>2. Switch to project dir</p>
 <br />
-<pre><code>cd Django-Employee-Kudos-Management/
+<pre><code>cd Django-Employee-Kudos-Management-master/
 </code></pre>
 <br />
 <br />
