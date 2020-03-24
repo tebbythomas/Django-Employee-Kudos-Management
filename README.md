@@ -3,19 +3,19 @@
 An application that enables employees to give kudos to their colleagues in their organisation
 <br />
 <br />
-Some of the features included:
-<li><b>Registering and Login of employees</b></li>
-<li><b>Giving kudos to only their colleagues</b></li>
-<li><b>Uploading employee details and kudos details in bulk</b></li>
-<li><b>Allocating a certain number of kudos for each employee each week</b></li>
-<li><b> Resetting the kudos count at the end of the week</b></li>
-<li><b>Using partials, base html file for template code modularity</b></li>
-<li><b>Using Django alert messages for success and error messages</b></li>
-<li><b>Admin section</b> - allowing an admin/superuser to perform CRUD operations on employee, employee profile, company, kudos information</li>
-<li><b>Using both frontend and DB constraints and checks</b></li>
+<h2>Some of the features included:</h2>
+<li>Registering and Login of employees</li>
+<li>Giving kudos to only their colleagues</li>
+<li>Uploading employee details and kudos details in bulk</li>
+<li>Allocating a certain number of kudos for each employee each week</li>
+<li> Resetting the kudos count at the end of the week</li>
+<li>Using partials, base html file for template code modularity</li>
+<li>Using Django alert messages for success and error messages</li>
+<li>Admin section - allowing an admin/superuser to perform CRUD operations on employee, employee profile, company, kudos information</li>
+<li>Using both frontend and DB constraints and checks</li>
 <br />
 <br />
-<b>Technical Details:</b>
+<h2>Technical Details:</h2>
 <br />
 <br />
 <b>Frontend:</b> HTML, JS, CSS (Bootstrap theme: https://bootswatch.com/cosmo/)
@@ -25,7 +25,7 @@ Some of the features included:
 <b>Database:</b> SQLite
 <br />
 <br /> 
-<b>Models used:</b>
+<h2>Models used:</h2>
 <br />
 <br />
 <b>User</b> (first_name, last_name, username, email, password)
@@ -37,12 +37,12 @@ Some of the features included:
 <b>Kudos</b> (fromColleague, toColleague, message, created_at)
 <br />
 <br />
-<b>Requirements of the app:</b>
+<h2>Requirements of the app:</h2>
 <br />
 <a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/blob/master/requirements.txt">Link</a>
 <br />
 <br />
-<b>To run the app:</b>
+<h2>To run the app:</h2>
 <br />
 <br />
 <p>1. Clone the repo</p>
@@ -119,7 +119,7 @@ Some of the features included:
 <a href="https://github.com/tebbythomas/Django-Employee-Kudos-Management/tree/master/Sample_Data">Link</a>
 <br />
 <br />
-<b>Screenshots:</b>
+<h2>Screenshots:</h2>
 <br />
 <br />
 1. <b>Register Employee Page</b>:
